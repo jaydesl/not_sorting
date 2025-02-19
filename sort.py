@@ -1,4 +1,5 @@
 def bubble_sort(arr):
+    """ ANother docstring """
     n = len(arr)
     for i in range(n):
         for j in range(0, n-i-1):
@@ -7,6 +8,7 @@ def bubble_sort(arr):
     return arr
 
 def insertion_sort(arr):
+    """ my docstring """
     for i in range(1, len(arr)):
         key = arr[i]
         j = i-1
