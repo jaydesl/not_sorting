@@ -8,7 +8,15 @@ def bubble_sort(arr):
     return arr
 
 def insertion_sort(arr):
-    """ my docstring """
+    """
+    Sorts an array of elements using the insertion sort algorithm.
+
+    Parameters:
+    arr (list): A list of elements to be sorted.
+
+    Returns:
+    list: The sorted list of elements.
+    """
     for i in range(1, len(arr)):
         key = arr[i]
         j = i-1
