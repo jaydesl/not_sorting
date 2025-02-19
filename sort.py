@@ -17,6 +17,19 @@ def insertion_sort(arr):
     return arr
 
 def quick_sort(arr):
+    """
+    Sorts an array using the quick sort algorithm.
+
+    Args:
+        arr (list): The list of elements to be sorted.
+
+    Returns:
+        list: A new list containing the sorted elements.
+
+    Example:
+        >>> quick_sort([3, 6, 8, 10, 1, 2, 1])
+        [1, 1, 2, 3, 6, 8, 10]
+    """
     if len(arr) <= 1:
         return arr
     pivot = arr[len(arr) // 2]
